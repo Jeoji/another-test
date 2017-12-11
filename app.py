@@ -34,7 +34,7 @@ def setup(webhook_url=None):
         update_queue = Queue()
         dp = Dispatcher(bot, update_queue)
     else:
-        updater = Updater(TOKEN)
+        updater = 
         bot = updater.bot
         dp = updater.dispatcher
         dp.add_handler(CommandHandler("start", start))
