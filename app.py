@@ -1,8 +1,6 @@
 import logging
 from queue import Queue
 from threading import Thread
-from telegram import Bot
-from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
